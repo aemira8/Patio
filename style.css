@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
   color: #fff;
 
   background-image: url(images/background.svg);
-  width: 640px;
+  max-width: 640px;
   margin: auto;
   padding-top: 40px;
 }
@@ -19,6 +20,15 @@ h2 {
   font-size: 32px;
   line-height: 1.2;
   font-weight: 400;
+}
+
+blockquote {
+  font-size: 32px;
+  line-height: 1.2;
+  font-style: italic;
+  font-weight: 400;
+
+  margin: 40px 0;
 }
 
 header {
@@ -37,6 +47,11 @@ nav a {
   margin-right: 15px;
 }
 
+nav a:hover {
+  color: #5000ff;
+  border-bottom: solid 2px #fff;
+}
+
 section {
   background-color: #5000ff;
   padding: 40px;
@@ -44,4 +59,19 @@ section {
 
 section img {
   width: 100%;
+}
+
+section.image {
+  padding: 0;
+}
+
+section.contact p {
+  margin-top: 20px;
+}
+
+section.contact a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: solid 2px #f05d5d;
+  padding-bottom: 1px;
 }
