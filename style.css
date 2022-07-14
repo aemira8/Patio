@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+
+  background-image: url(images/background.svg);
+  width: 640px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+header {
+  background-color: #fff;
+  padding: 40px;
+}
+
+nav {
+  background-color: #f05d5d;
+  padding: 20px 40px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+section {
+  background-color: #5000ff;
+  padding: 40px;
+}
+
+section img {
+  width: 100%;
+}
